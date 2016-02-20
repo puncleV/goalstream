@@ -4,17 +4,18 @@
 <Table>
 <thead>
 	<tr>
-		<td>Номер в команде</td>
+		<td>Номер</td>
 		<td>Фото</td>
 		<td>Имя</td>
 		<td>Амплуа</td>
 	</tr>
 </thead>
 <tbody>
-<?php foreach($teamSquad as $player):?>	
+<?php 
+foreach($teamSquad['persons'] as $player):?>
 	<tr>
-		<td><img src=<?php echo $player['number'] ?>></td>
-		<td><a href=<?php echo $player['foto_url'] ?>></td>
+		<td><?php echo $player['number'] ?></td>
+		<td><img src=<?php echo $player['foto_url'] ?> style="width:50px; height:50px"></td>
 		<td><?php echo $player['name'] ?></td>
 		<td><?php echo $player['position'] ?></td>
 	</tr>
