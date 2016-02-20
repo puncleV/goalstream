@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="1.5.0" method="upgrade">
+    <name>GS team squad module</name>
+    <author>Kozlov Viktor</author>
+    <version>1.0</version>
+    <description>ssss</description>
+    <files>
+        <filename>mod_teamsquad.xml</filename>
+        <filename module="mod_teamsquad">mod_teamsquad.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+    </files>
+</extension>
